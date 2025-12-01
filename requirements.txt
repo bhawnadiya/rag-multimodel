@@ -12,3 +12,4 @@ tqdm
 requests
 numpy
 pandas
+IPython
