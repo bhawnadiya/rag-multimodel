@@ -1,0 +1,14 @@
+streamlit
+python-dotenv
+google-generativeai
+llama-index-core
+llama-index-embeddings-huggingface
+llama-index-embeddings-gemini
+llama-index-llms-gemini
+transformers
+torch
+huggingface-hub
+tqdm
+requests
+numpy
+pandas
