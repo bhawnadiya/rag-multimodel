@@ -1,8 +1,8 @@
 import streamlit as st
 import os
-from QAWithPDF.data_ingestion import load_data
-from QAWithPDF.embedding import download_gemini_embedding
-from QAWithPDF.model_api import load_model
+from QawithPDF.data_ingestion import load_data
+from QawithPDF.embedding import download_gemini_embedding
+from QawithPDF.model_api import load_model
 
 def main():
     st.set_page_config(page_title="📄 Enterprise Multi-Modal Document Q&A", layout="wide")
