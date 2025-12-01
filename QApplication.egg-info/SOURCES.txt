@@ -1,6 +1,0 @@
-setup.py
-QApplication.egg-info/PKG-INFO
-QApplication.egg-info/SOURCES.txt
-QApplication.egg-info/dependency_links.txt
-QApplication.egg-info/requires.txt
-QApplication.egg-info/top_level.txt
