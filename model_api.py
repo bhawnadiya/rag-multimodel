@@ -7,6 +7,11 @@ from IPython.display import Markdown, display
 import google.generativeai as genai
 from exception import customexception
 from logger import logging
+os.environ["NO_GCE_CHECK"] = "true"
+os.environ["GOOGLE_CLOUD_DISABLE_METRICS"] = "true"
+os.environ["GRPC_DNS_RESOLVER"] = "native"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = ""
+
 
 load_dotenv()
 
