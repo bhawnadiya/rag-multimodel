@@ -3,8 +3,8 @@ from llama_index.core import StorageContext, load_index_from_storage
 from llama_index.embeddings.gemini import GeminiEmbedding
 from llama_index.core.settings import Settings
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
-from QawithPDF.data_ingestion import load_data
-from QawithPDF.model_api import load_model
+from data_ingestion import load_data
+from model_api import load_model
 import sys
 from exception import customexception
 from logger import logging
